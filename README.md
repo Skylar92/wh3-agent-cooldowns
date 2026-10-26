@@ -64,7 +64,7 @@ python -m pytest
 python -m tools.build
 ```
 
-`python -m tools.build` writes `dist/agent_cooldowns.pack` and its Workshop preview image `dist/agent_cooldowns.png` (drawn by `tools/preview.py`). `--install` also copies both into the game's `data` folder (close the game first). Game path: `tools/paths.py`.
+`python -m tools.build` writes `dist/agent_cooldowns.pack` and its Workshop preview image `dist/agent_cooldowns.png` (`assets/preview.png` scaled to 512x512 by `tools/preview.py`). `--install` also copies both into the game's `data` folder (close the game first). Game path: `tools/paths.py`.
 
 ### How it works
 
